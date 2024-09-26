@@ -43,8 +43,7 @@ GIF created with licecap
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
-
+This project was pretty straightforward  and  was easy to understand
 ## License
 
 Copyright [yyyy] [name of copyright owner]
