@@ -23,7 +23,7 @@ const renderGifts = async () => {
 
       const pricePoint = document.createElement("p");
 
-      pricePoint.textContent = "Price: " + car.pricePoint;
+      pricePoint.textContent = "MSRP: " + car.msrp;
       bottomContainer.appendChild(pricePoint);
 
       const audience = document.createElement("p");
@@ -32,7 +32,7 @@ const renderGifts = async () => {
       const link = document.createElement("a");
       link.textContent = "Read More >";
       link.setAttribute("role", "button");
-      link.href = `/gifts/${car.id}`;
+      link.href = `/cars/${car.id}`;
       bottomContainer.appendChild(link);
 
       card.appendChild(topContainer);
